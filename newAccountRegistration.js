@@ -35,7 +35,7 @@ function isEmailValid() {
          if ((password1 != '') && (password1 === password2)) {
              $('output').append('Passwords match');
          } else {
-             $('#passwordErrorMessage').html("Password missing or doesn't match.")
+             $('#passwordErrorMessage').html("Password missing or doesn't match.");
          }
      }
  });
